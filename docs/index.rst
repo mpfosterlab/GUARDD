@@ -60,7 +60,6 @@ Author
 -  Ian Kleckner: http://ianrobertkleckner.blogspot.com
 -  Work completed as part of PhD Dissertation Mark Foster's Lab The Ohio
    State University Columbus, OH, USA
--  Documentation updated by Cameron Jamshidi, 2018
 
 Indices and tables
 ------------------
