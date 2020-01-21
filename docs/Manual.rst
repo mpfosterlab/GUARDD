@@ -76,7 +76,7 @@ Chemical exchange phenomenon
 -  The relaxation dispersion (RD) NMR experiment can access this
    information by use of a spin-echo pulse train
 
-.. image:: figure-chem_exchange_NMR-GUARDD.png
+.. image:: figures/figure-chem_exchange_NMR-GUARDD.png
    :scale: 70%
 
 The RD experiment refocuses chemical exchange broadening R\ :sub:`ex`
@@ -99,7 +99,7 @@ The RD experiment refocuses chemical exchange broadening R\ :sub:`ex`
 -  **(c)** The dispersion Curve reports on dynamics by plotting relaxation
    rate as a function of refocusing frequency.
 
-.. image:: figure-CPMG_RD--experiment.png
+.. image:: figures/figure-CPMG_RD--experiment.png
    :scale: 50%
 
 Two-state exchange model
@@ -112,7 +112,7 @@ Two-state exchange model
    directly because its NMR signal is too weak and/or too broad.
 -  However, the A↔B exchange yields a quantitative effect on the measured RD Curve of signal A.
 
-.. image:: figure-rd_parameters.png
+.. image:: figures/figure-rd_parameters.png
 
 **The two-state exchange model requires 4-5 parameters to describe a
 single RD Curve** 
@@ -144,7 +144,7 @@ aggregated into Curvesets, which are aggregated into Groups
 
 Details on Curves, Curvesets, and Groups can be found later in the Manual
 s
-.. image:: figure-data_management-example.png
+.. image:: figures/figure-data_management-example.png
 
 *Figure above* (a) Hierarchical data structures used in GUARDD, (b) example data structure
 
@@ -222,7 +222,7 @@ Usethe debugging output option
 
    OUTPUT_DEBUG_UPDATE_FIT_PARAMS 
 
-.. image:: figure-data_management-example.png
+.. image:: figures/figure-data_management-example.png
 
 *Figure above* (a) Hierarchical data structures used in GUARDD, (b) example data structure discussed below*
 
@@ -339,7 +339,7 @@ Organizing data
 
 **Goal**: Organize data in hierarchical manner to provide framework for fitting procedures
 
-.. image:: figure-data_management-large.png
+.. image:: figures/figure-data_management-large.png
 
 *Figure above* Datasets contain Curves, which are linked to by Curvesets within Groups
 
@@ -722,13 +722,13 @@ Analyze data using GUARDD
 
    -  New Groups can be generated to test global motions and/or to refine fit results
 
-.. image:: figure-flowchart-fitting.png
+.. image:: figures/figure-flowchart-fitting.png
    :scale: 60%
 
 GUARDD Graphical Interface
 --------------------------
 
-.. image:: main-GUARDD-2011.07.13--01.png
+.. image:: figures/main-GUARDD-2011.07.13--01.png
 
 GUARDD Input menu
 ^^^^^^^^^^^^^^^^^
@@ -754,7 +754,7 @@ Settings
 
 **Goal**: Change program settings here
 
-.. image:: manual-GUARDD-2011.06.16--settings.png
+.. image:: figures/manual-GUARDD-2011.06.16--settings.png
 
 -  Take special note of OUTPUT_DEBUG flags, which are helpful to see
    program logic during execution
@@ -766,7 +766,7 @@ Data Manger
 
 **Goal**: *Manage datasets, Curves, Curvesets, and Groups for analysis (input and basic output)*
 
-.. image:: tutorial-GUARDD-2011.06.17--04.png
+.. image:: figures/tutorial-GUARDD-2011.06.17--04.png
 
 **Menu items** 
 
@@ -902,7 +902,7 @@ Create Groups
 
 Helpful when only part of a large dataset is desired
 
-.. image:: tutorial-GUARDD-2011.06.17--03.png
+.. image:: figures/tutorial-GUARDD-2011.06.17--03.png
 
 -  Tutorial: Advanced Group creation
 
@@ -912,7 +912,7 @@ Select Group
 **Goal**: Select a Group so that the selected
 Curveset can be copied to it
 
-.. image:: tutorial-GUARDD-2011.06.17--13.png
+.. image:: figures/tutorial-GUARDD-2011.06.17--13.png
 
 -  Tutorial: Advanced Group creation
 
@@ -929,7 +929,7 @@ RD Simulator
 
 -  Tutorial: Data simulation
  
-.. image:: tutorial-GUARDD-2011.06.17--Sim-03.png
+.. image:: figures/tutorial-GUARDD-2011.06.17--Sim-03.png
 
 **Key sections of code**
 
@@ -970,7 +970,7 @@ Fit Dispersion
 -  The “product” is a best fitResult, and its parameters which are OK (those are used/displayed in subsequent analyses)
 -  **Note**: Tasks completed in this window are automatically committed (no need for an “OK” or “Save” command)
 
-.. image:: tutorial-GUARDD-2011.06.17--16.png
+.. image:: figures/tutorial-GUARDD-2011.06.17--16.png
 
 -  This window contains six panels for fitting tasks
 -  Panel: (1a) Procedure
@@ -1070,7 +1070,7 @@ Batch Task
 **Goal**: *Queue up lengthy computations for
 sequential processing*
 
-.. image:: tutorial-GUARDD-2011.06.17--18.png
+.. image:: figures/tutorial-GUARDD-2011.06.17--18.png
 
 -  Tutorial: set up a batch task 
 
@@ -1078,7 +1078,7 @@ Notes
 #####
 **Goal**: *Document notes on Session, and read notes on all Groups*
 
-.. image:: tutorial-GUARDD-2011.06.17--19.png
+.. image:: figures/tutorial-GUARDD-2011.06.17--19.png
 
 -  Group notes can be modified in the Fit RD window
 -  Group notes can be read and exported to plain-text in the Results Table
@@ -1104,9 +1104,9 @@ Display Dispersion
 
 **Goal**: Display RD Curves in a Group to assess fit quality (via residuals) and prepare figures for dissemination
 
-.. image:: tutorial-GUARDD-2011.06.17--11.png
+.. image:: figures/tutorial-GUARDD-2011.06.17--11.png
 
-.. image:: tutorial-GUARDD-2011.06.17--12.png
+.. image:: figures/tutorial-GUARDD-2011.06.17--12.png
 
 -  Tutorial: display the dispersion 
 
@@ -1130,7 +1130,7 @@ search or MC error analysis to assess and refine fit
    -  Issue: the nonlinear nature of RD yields a “rough” χ\ :sup:`2` map
       that can trap the fitting routine in local minima
 
-.. image:: figure-chi2_maps.png
+.. image:: figures/figure-chi2_maps.png
 
 *Figure above* The response of χ\ 2 to just one parameter k\ :sub:`ex`
 produces a 2D slice through the hypersurface to illustrate four commonly
@@ -1168,7 +1168,7 @@ Select fit from grid search
 
 **Goal**: To examine a particular fit from the grid search that is not the minimum χ\ :sup:`2`\, it must be selected from the list. This is helpful for checking another well in χ\ :sup:`2` space.
 
-.. image:: tutorial-GUARDD-2011.06.17--31.png
+.. image:: figures/tutorial-GUARDD-2011.06.17--31.png
 
 -  Tutorial: select fit from grid search 
 
@@ -1182,7 +1182,7 @@ Display Monte Carlo Errors
 -  The distribution of fitted values reflects the degree to which the original data define its *own* optimal values 
    - Example: A worse optimal fit to the original data yields *more different* MC datasets and therefore *more different* optimal parameter values
 
-.. image:: figure-monte_carlo.png
+.. image:: figures/figure-monte_carlo.png
 
 *Figure above* The example data contains 5 observations (black), 5
 residuals (red), and 10 synthetic datasets (green squares), each with
@@ -1210,9 +1210,9 @@ values
    -  Sometimes anomalous fits yield very large χ\ :sup:`2`, and can be
       discarded, but this is rare
 
-.. image:: tutorial-GUARDD-2011.06.17--22.png
+.. image:: figures/tutorial-GUARDD-2011.06.17--22.png
 
-.. image:: tutorial-GUARDD-2011.06.17--23.png
+.. image:: figures/tutorial-GUARDD-2011.06.17--23.png
 
 -  Tutorial: View Monte Carlo results for a good fit
 -  Tutorial: View Monte Carlo results for a bad fit
@@ -1232,7 +1232,7 @@ Display group results
 
 **Goal**: Visually organize fitting results to seek the nature of molecular motions
 
-.. image:; tutorial-GUARDD-2011.06.17--10.png
+.. image:: figures/tutorial-GUARDD-2011.06.17--10.png
 
 -  *Button: New* → Add new empty DisplayCluster to hold Groups for
    displaying results
@@ -1265,7 +1265,7 @@ Display group results
    -  Some paramters *could* plot one point per Curve (e.g., R\ :sub:`ex`\) but the FIRST Curve is selected by default
    -  Otherwise there would be too many points on the plot
 
-.. image:: GUARDD-Groups-2011.06.23--05.png
+.. image:: figures/GUARDD-Groups-2011.06.23--05.png
 
 -  Tutorial: View display results in cluster
 
@@ -1305,7 +1305,7 @@ Display results table
    -  One is easier for plotting in external programs
    -  Another is easier for preparing a publication quality table
 
-.. image:: tutorial-GUARDD-2011.06.17--25.png
+.. image:: figures/tutorial-GUARDD-2011.06.17--25.png
 
 -  Tutorial: display results table
 
@@ -1554,25 +1554,25 @@ set of 5 parameters
 
    -  Korzhnev (2004)
 
-.. image:: formula-MQ_RD-Korzhnev-01.png
+.. image:: figures/formula-MQ_RD-Korzhnev-01.png
 
-.. image:: formula-MQ_RD-Korzhnev-02.png
+.. image:: figures/formula-MQ_RD-Korzhnev-02.png
 
-.. image:: formula-MQ_RD-Korzhnev-03.png
+.. image:: figures/formula-MQ_RD-Korzhnev-03.png
 
-.. image:: formula-MQ_RD-Korzhnev-04.png
+.. image:: figures/formula-MQ_RD-Korzhnev-04.png
 
-.. image:: formula-MQ_RD-Korzhnev-05.png
+.. image:: figures/formula-MQ_RD-Korzhnev-05.png
 
-.. image:: formula-MQ_RD-Korzhnev-06.png
+.. image:: figures/formula-MQ_RD-Korzhnev-06.png
 
-.. image:: formula-MQ_RD-Korzhnev-07.png
+.. image:: figures/formula-MQ_RD-Korzhnev-07.png
 
-.. image:: formula-MQ_RD-Korzhnev-08.png
+.. image:: figures/formula-MQ_RD-Korzhnev-08.png
 
-.. image:: formula-MQ_RD-Korzhnev-09.png
+.. image:: figures/formula-MQ_RD-Korzhnev-09.png
 
-.. image:: formula-MQ_RD-Korzhnev-10.png
+.. image:: figures/formula-MQ_RD-Korzhnev-10.png
 
 Fitting data
 ^^^^^^^^^^^^ 
@@ -1637,7 +1637,7 @@ Fitting data
    -  Bevington (2003)
    -  Motulsky (2003)
 
-.. image:: formula-chi2_target.png
+.. image:: figures/formula-chi2_target.png
 
 Exchange broadening
 ^^^^^^^^^^^^^^^^^^^
@@ -1798,7 +1798,7 @@ Arrhenius: Determining activation energy
 
    -  Winzor & Jackson (2006)
 
-.. image:: formula-arrhenius.png
+.. image:: figures/formula-arrhenius.png
 
 vant Hoff: Determining enthalpy
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -1840,7 +1840,7 @@ vant Hoff: Determining enthalpy
 
    -  Winzor & Jackson (2006)
 
-.. image:: formula-vanthoff.png
+.. image:: figures/formula-vanthoff.png
 
 Kinetic simulator
 ^^^^^^^^^^^^^^^^^ 
@@ -1911,47 +1911,47 @@ Kinetic simulator
 
 Using ΔH and P\ :sub:`A`\(T0), the van’t Hoff relation yields ΔS
 
-.. image:: formula-kinetic_simulator-03.png
+.. image:: figures/formula-kinetic_simulator-03.png
 
 which, with ΔH, determines P\ :sub:`A` at any temperature via van’t Hoff
 
-.. image:: formula-kinetic_simulator-04.png
+.. image:: figures/formula-kinetic_simulator-04.png
 
 Next, using P\ :sub:`A` and k\ :sub:`ex` at T\ :sub:`0` determines k\ :sub:`A` and k\ :sub:`B` at
 T\ :sub:`0`
 
-.. image:: formula-kinetic_simulator-05.png
+.. image:: figures/formula-kinetic_simulator-05.png
 
-.. image:: formula-kinetic_simulator-06.png
+.. image:: figures/formula-kinetic_simulator-06.png
 
 and using E\ :sub:`AB` and k\ :sub:`A` at T\ :sub:`0`, the Arrhenius relation yields
 P\ :sub:`AB`
 
-.. image:: formula-kinetic_simulator-07.png
+.. image:: figures/formula-kinetic_simulator-07.png
 
 which, with E\ :sub:`AB`\, yields k\ :sub:`A` at any temperature via Arrhenius
 
-.. image:: formula-kinetic_simulator-08.png
+.. image:: figures/formula-kinetic_simulator-08.png
 
 Next, knowledge of P\ :sub:`A` and k\ :sub:`A` at any temperature yields k\ :sub:`ex`
 at any temperature
 
-.. image:: formula-kinetic_simulator-09.png
+.. image:: figures/formula-kinetic_simulator-09.png
 
 and therefore k\ :sub:`B` at any temperature
 
-.. image:: formula-kinetic_simulator-10.png
+.. image:: figures/formula-kinetic_simulator-10.png
 
 Knowledge of k\ :sub:`B` at any temperature yields E\ :sub:`BA` via the Arrhenius
 relation and selection of any two temperatures T\ :sub:`1` and T\ :sub:`2` (e.g.,
 280 K and 320 K)
 
-.. image:: formula-kinetic_simulator-11.png
+.. image:: figures/formula-kinetic_simulator-11.png
 
 Finally, using k\ :sub:`B`\(T\ :sub:`0`) and E\ :sub:`BA`\, the Arrhenius relation yields
 P\ :sub:`BA`
 
-.. image:: formula-kinetic_simulator-12.png
+.. image:: figures/formula-kinetic_simulator-12.png
 
 Grid search 
 ^^^^^^^^^^^
@@ -2048,7 +2048,7 @@ Monte Carlo error estimation
 **Goal**: Generate and fit multiple synthetic data to assess sensitivity of final
 fit to noise in data
 
-.. image:: figure-monte_carlo.png
+.. image:: figures/figure-monte_carlo.png
 
 Monte Carlo procedure generates and fits synthetic data consistent with
 observed residuals (related to noise)
