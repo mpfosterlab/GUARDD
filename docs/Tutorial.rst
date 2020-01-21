@@ -80,7 +80,7 @@ Start GUARDD
 
 Check Matlab command window for additional output
 
-.. image:: tutorial-GUARDD-2011.06.17--01.png
+.. image:: images/tutorial-GUARDD-2011.06.17--01.png
 
 Load data
 ---------
@@ -138,7 +138,7 @@ Load data
 -  25, 32, and 37\ :sup:`o`\C
 -  SQ and MQ coherence
 
-.. image:: tutorial-GUARDD-2011.06.17--02.png
+.. image:: images/tutorial-GUARDD-2011.06.17--02.png
 
 Create groups for fitting
 -------------------------
@@ -177,7 +177,7 @@ Group...Generate from subset of data...
   -  Type 22
   -  Click Generate groups
 
-.. image:: tutorial-GUARDD-2011.06.17--03.png
+.. image:: images/tutorial-GUARDD-2011.06.17--03.png
 
 **Data Manager**
 
@@ -185,7 +185,7 @@ Group...Generate from subset of data...
 
 -  Close the **Data Manager** window
 
-.. image:: tutorial-GUARDD-2011.06.17--04.png
+.. image:: images/tutorial-GUARDD-2011.06.17--04.png
 
 Select groups that exhibit exchange
 -----------------------------------
@@ -204,7 +204,7 @@ Select Groups
 
 -  **Note**: all residues exhibit exchange except Ile 61δ\ :sub:`1` and Ile 68δ\ :sub:`1`
 
-.. image:: tutorial-GUARDD-2011.06.17--05.png
+.. image:: images/tutorial-GUARDD-2011.06.17--05.png
 
 Fit RD data
 -----------
@@ -279,7 +279,7 @@ Fitting
 
       -  Guidelines for determining the quality of the fit can be found in the Manual.
 
-.. image:: tutorial-GUARDD-2011.06.17--06.png
+.. image:: images/tutorial-GUARDD-2011.06.17--06.png
 
 -  **Note**: If unsure about which initial conditions to use, the grid search fits multiple times with different initial conditions
 
@@ -319,7 +319,7 @@ appropriate, both Fit-1 and Fig-G yield the same result
 -  Note: The grid search can demonstrate success if the optimal fit is
    insensitive to inital conditions
 
-.. image:: tutorial-GUARDD-2011.06.17--07.png
+.. image:: images/tutorial-GUARDD-2011.06.17--07.png
 
 -  Note: Saving data and output plots are discussed later in this document.
 
@@ -403,7 +403,7 @@ Click **Go!** (1-5 sec)
 -  Check **Best fit is OK**
 -  Click **All**
 
-.. image:: tutorial-GUARDD-2011.06.17--08.png
+.. image:: images/tutorial-GUARDD-2011.06.17--08.png
 
 Fit with rate constraints (Method B)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -446,7 +446,7 @@ Click **Go!** (1-5 sec)
 
 -  Click **All**
 
-.. image:: tutorial-GUARDD-2011.06.17--09.png
+.. image:: images/tutorial-GUARDD-2011.06.17--09.png
 
 Examine rate analysis (vant Hoff and Arrhenius)
 -----------------------------------------------
@@ -468,7 +468,7 @@ Use Rates window to examine temperature-dependence of rates (vant Hoff and Arren
 -  Save the figure to a file
 -  Close Rates
 
-.. image:: tutorial-GUARDD-2011.06.17--10.png
+.. image:: images/tutorial-GUARDD-2011.06.17--10.png
 
 View fits to RD data
 --------------------
@@ -496,7 +496,7 @@ View fits to RD data
 -  Type **ps** to save as a postscript file and click **Save** (or hit
    **Enter**)
 
-.. image:: tutorial-GUARDD-2011.06.17--11.png
+.. image:: images/tutorial-GUARDD-2011.06.17--11.png
 
 Create a 2D plot with residuals that highlights the fit to some of the data
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -523,7 +523,7 @@ Create a 2D plot with residuals that highlights the fit to some of the data
 
 -  Close the Display RD window
 
-.. image:: tutorial-GUARDD-2011.06.17--12.png
+.. image:: images/tutorial-GUARDD-2011.06.17--12.png
 
 **Save the session often!**
 
@@ -570,7 +570,7 @@ Select Group
 
 **Group -> Sort groups**
 
-.. image:: tutorial-GUARDD-2011.06.17--13.png 
+.. image:: images/tutorial-GUARDD-2011.06.17--13.png 
 
 -  Make sure that group\Leu 22\ contains two curvesets: \Cp(Leu 22\delta1)\ and \Cp(Leu22\delta2)\  
 -  **Note**: A copy ("Cp") is made because this is a different curveset than the original, and therefore may contain a different set of curves (e.g., only one temperature, only MQ)  
@@ -578,7 +578,7 @@ Select Group
 -  See the manual for more on organizing data 
 -  Close **Data Manager** 
 
-.. image:: tutorial-GUARDD-2011.06.17--14.png
+.. image:: images/tutorial-GUARDD-2011.06.17--14.png
 
 Fit a multi-curveset, multi-temperature group
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -632,7 +632,7 @@ Determine and R\ :sub:`2`\ :sup:`0` for each curve (x20)
 -  Check **Best fit is OK**
 -  Click **All**
 
-.. image:: tutorial-GUARDD-2011.06.17--16.png
+.. image:: images/tutorial-GUARDD-2011.06.17--16.png
 
 Demonstrate issue that some optimized fits are sensitive to initial conditions (especially noisy and/or many data)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -686,7 +686,7 @@ Click **Go!** (50-100 sec)
 
 **Save the session often**
 
-.. image:: tutorial-GUARDD-2011.06.17--17.png
+.. image:: images/tutorial-GUARDD-2011.06.17--17.png
 
 Main
 
@@ -753,7 +753,7 @@ This was designed for two purposes
    work), then download/view the results remotely on another computer
    (e.g., at home)
 
-.. image:: tutorial-GUARDD-2011.06.17--18.png
+.. image:: images/tutorial-GUARDD-2011.06.17--18.png
 
 Time for a break?
 -----------------
@@ -840,7 +840,7 @@ View fit and residuals
 
 -  Confer prior tutorial steps on using the Display RD window
 
-.. image:: tutorial-GUARDD-2011.06.17--12.png
+.. image:: images/tutorial-GUARDD-2011.06.17--12.png
 
 View Grid Search Chi2 Map for good fit
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -856,7 +856,7 @@ Key info on features of chi2 maps
 -  Chi2 maps take a variety of shapes, such as ".", "U", "W", and "-"
 -  \*Details*: Read more in the Manual
 
-.. image:: figure-chi2_maps.png
+.. image:: images/figure-chi2_maps.png
    :scale: 50%
 
 **Goal**: Use both Chi2 Map window and Fit RD window to view data
@@ -903,7 +903,7 @@ shown
    displayed grid list
 -  Any of these can be added to the list of fits, if desired
 
-.. image:: tutorial-GUARDD-2011.06.17--20.png
+.. image:: images/tutorial-GUARDD-2011.06.17--20.png
 
 **Observe**: The fit to the no exchange model is inappropriate
 
@@ -926,7 +926,7 @@ shown
 #. Move the **Top%** slider down to 50% in 4-6 small steps
 #. **Observe**: The chi2 map remains U-shaped even as the poorest fits are eliminated from display
 
-.. image:: tutorial-GUARDD-2011.06.17--21.png
+.. image:: images/tutorial-GUARDD-2011.06.17--21.png
 
 View Monte Carlo Errors χ\ :sup:`2` Map for good fit
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -985,7 +985,7 @@ in the data
 -  Sometimes anomalous fits yield very large χ\ :sup:`2`, and can be
    discarded, but this is rare
 
-.. image:: tutorial-GUARDD-2011.06.17--22.png
+.. image:: images/tutorial-GUARDD-2011.06.17--22.png
 
 Observe: The symmetry of the MC χ\ :sup:`2` maps indicate reliable
 estimation of error, and is consistent with reasonable parameter values
@@ -995,7 +995,7 @@ estimation of error, and is consistent with reasonable parameter values
 -  The histogram is roughly symmetric, and is well-described by the
    standard deviation
 
-.. image:: tutorial-GUARDD-2011.06.17--23.png
+.. image:: images/tutorial-GUARDD-2011.06.17--23.png
 
 View Grid Search χ\ :sup:`2` Map for fit with unknown parameters
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1016,7 +1016,7 @@ Ile 43, a good fit with unknown parameters
 #. Output...Display chi2 map...
 #. Analysis...Fit dispersion...
 
-.. image:: figure-monte_carlo.png
+.. image:: images/figure-monte_carlo.png
 
 **Chi2 Map**
 
@@ -1030,7 +1030,7 @@ Ile 43, a good fit with unknown parameters
 
 **Observe**: The grid search illutrates solutions at two distinct points
 
-.. image:: tutorial-GUARDD-2011.06.17--26.png
+.. image:: images/tutorial-GUARDD-2011.06.17--26.png
 
 **Goal**: Add the higher-χ\ :sup:`2` fit to the fit list for further inspection
 
@@ -1055,7 +1055,7 @@ Ile 43, a good fit with unknown parameters
 
 For now, we will continue to analyze the lower-χ\ :sup:`2` fit
 
-.. image:: tutorial-GUARDD-2011.06.17--27.png
+.. image:: images/tutorial-GUARDD-2011.06.17--27.png
 
 View Monte Carlo Errors χ\ :sup:`2` Map for fit with uknown parameters
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1072,7 +1072,7 @@ View Monte Carlo Errors χ\ :sup:`2` Map for fit with uknown parameters
 #. **Observe**: A wide range of Δω and P\ :sub:`A` values can describe these data → Δω and P\ :sub:`A` are not OK!
 #. Close Chi2 Map window
 
-.. image:: tutorial-GUARDD-2011.06.17--29.png
+.. image:: images/tutorial-GUARDD-2011.06.17--29.png
 
 **Goal**: Mark these parameters as "Not OK" in the Fit RD window
 
@@ -1089,7 +1089,7 @@ View Monte Carlo Errors χ\ :sup:`2` Map for fit with uknown parameters
 #. Make note of this in the **(5) Log notes for group** panel (or take note of the current note)
 #. Close Fit RD window
 
-.. image:: tutorial-GUARDD-2011.06.17--30.png
+.. image:: images/tutorial-GUARDD-2011.06.17--30.png
 
 Document notes for organization
 -------------------------------
@@ -1106,7 +1106,7 @@ Document notes for organization
 #. Notes on the session can be created and edited in the Notes window
 #. Close the Notes window
 
-.. image:: tutorial-GUARDD-2011.06.17--19.png
+.. image:: images/tutorial-GUARDD-2011.06.17--19.png
 
 Output results
 ~~~~~~~~~~~~~~
@@ -1203,7 +1203,7 @@ Close Groups window
 **Bug**: Selecting **dwX_ppm** results in an error involving
 iscolumn() in some versions of MATLAB (at least R2009a on Windows)
 
-.. image:: tutorial-GUARDD-2011.06.17--24.png
+.. image:: images/tutorial-GUARDD-2011.06.17--24.png
 
 View results in table
 ~~~~~~~~~~~~~~~~~~~~~
@@ -1219,7 +1219,7 @@ View results in table
 
 **Bug**: Selecting all items in the table results in an error in some versions of MATLAB (at least R2009a on Windows)
 
-.. image:: tutorial-GUARDD-2011.06.17--25.png
+.. image:: images/tutorial-GUARDD-2011.06.17--25.png
 
 Export data and groups
 ----------------------
@@ -1273,7 +1273,7 @@ Create a new SimCurve, which specifies NMR conditions for simulation
 #. Set **B0(MHz)** to 500
 #. CURVES: Click **New**
 
-.. image:: tutorial-GUARDD-2011.06.17--Sim-01.png
+.. image:: images/tutorial-GUARDD-2011.06.17--Sim-01.png
 
 Simulate multi-field, multi-temperature dataset
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1308,7 +1308,7 @@ Create two new SimCurves at 35C (500 MHz and 800 MHz)
 #. CURVES: Click **New**
 #. Set **Temp(C)** to 35
 
-.. image:: tutorial-GUARDD-2011.06.17--Sim-02.png
+.. image:: images/tutorial-GUARDD-2011.06.17--Sim-02.png
 
 Explore experimental condtions for observing RD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1348,7 +1348,7 @@ CURVE: Set **B0(MHz)** to 1000
 
 #. At higher field strength, dispersions are larger, becuse Δω\ :sub:`X`\ (Hz) is increased
 
-.. image:: tutorial-GUARDD-2011.06.17--Sim-03.png
+.. image:: images/tutorial-GUARDD-2011.06.17--Sim-03.png
 
 Explore temperature-dependence of exchange kinetics
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1390,7 +1390,7 @@ Check this effect on the simulated RD surface plot
 
 -  Close the window (X)
 
-.. image:: tutorial-GUARDD-2011.06.17--Sim-04.png
+.. image:: images/tutorial-GUARDD-2011.06.17--Sim-04.png
 
 Export simulated data
 ~~~~~~~~~~~~~~~~~~~~~
@@ -1420,6 +1420,6 @@ RD Simulator Export
 -  Fitting can be accomplished as per the simple group or for the multi-temperature group.
 -  Fits of these data should achieve within 10% accuracy of the simulation conditions
 
-.. image:: tutorial-GUARDD-2011.06.17--Sim-05.png
+.. image:: images/tutorial-GUARDD-2011.06.17--Sim-05.png
 
 **This concludes the tutorial!**
